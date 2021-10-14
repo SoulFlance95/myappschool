@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtbanner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Gestion de modules"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/txtidmodule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID:" />
+
+    <EditText
+        android:id="@+id/txtnommodule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom:" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ajoutmodbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ajouter un module" />
+
+        <Button
+            android:id="@+id/suppmodbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer un module" />
+
+        <Button
+            android:id="@+id/modifmodbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier un module" />
+
+        <Button
+            android:id="@+id/voirmodbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voir les modules" />
+
+        <Button
+            android:id="@+id/gesmodulesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Retourner au menu principal" />
+
+    </LinearLayout>
+</LinearLayout>

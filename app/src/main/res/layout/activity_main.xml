@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Gestion de filiéres"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+       android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtidfiliere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="ID:" />
+
+    <EditText
+        android:id="@+id/txtnomfiliere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom:" />
+
+    <EditText
+        android:id="@+id/txtreffiliere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Référence:" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ajoutfilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ajouter une filiére" />
+
+        <Button
+            android:id="@+id/suppfilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Supprimer une filiére" />
+
+        <Button
+            android:id="@+id/modiffilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier une filiére" />
+
+        <Button
+            android:id="@+id/voirfilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Voir les filiéres" />
+
+        <Button
+            android:id="@+id/gesmodulesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ouvrir menu Gestion des modules" />
+
+    </LinearLayout>
+</LinearLayout>
